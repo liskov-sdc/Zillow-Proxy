@@ -13,10 +13,25 @@
   "license": "ISC",
   "homepage": "https://github.com/code-voyage/zillowish-jessica-proxy#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "axios": "^0.18.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "jquery": "^3.3.1",
-    "nodemon": "^1.18.10"
+    "newrelic": "^5.6.3",
+    "nodemon": "^1.18.10",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-fontawesome": "^1.6.1",
+    "read-more-react": "^1.0.9",
+    "redis": "^2.8.0",
+    "redis-lru": "^0.6.0",
+    "styled-components": "^4.2.0"
   }
 }

@@ -1,9 +1,9 @@
 #zillowBackground{
     display: grid;
-    grid-template-columns: 200px  1fr 200px; 
-    grid-template-rows: 1fr; 
+    grid-template-columns: 200px  1fr 200px;
+    grid-template-rows: 1fr;
     grid-column-gap: 2px;
-    grid-template-areas: 
+    grid-template-areas:
     ". zillowContent .";
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('./zillowbackground.png');
     background-repeat: no-repeat;
@@ -18,7 +18,8 @@
     padding: 10px;
     height: 765px;
     width: fit-content;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 #facts{
